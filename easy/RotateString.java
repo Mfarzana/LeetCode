@@ -25,4 +25,9 @@ public boolean rotateString(String A, String B) {
         
         return false;
     }
+// Solution 2
+    public boolean rotateStringSolution2(String A, String B) {
+            return (A.length()==B.length() && (A+A).contains(B)); 
+        }
+    
 }
